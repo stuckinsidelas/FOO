@@ -2,4 +2,4 @@ workflows:
   my-workflow:
     scripts:
       - name: eh no
-        script: brew install nodejs && node foo.js
+        script: brew install nodejs && node bar.js
