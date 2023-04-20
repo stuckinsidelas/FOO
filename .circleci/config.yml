@@ -11,7 +11,7 @@ jobs:
     steps:
       - node/install
       - checkout
-      - run: " ls && node index.js" 
+      - run: " ls && node foo.js" 
 workflows:
   example-workflow:
     jobs:
